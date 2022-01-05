@@ -18,7 +18,7 @@ public class TreeMapClass {
         for (int i = 0; i < size; i++) {
             System.out.println("Enter your word:");
             String text = in.next();
-            collectin.put(i, text);
+            collectin.put(i + 1, text);
 
         }
     }
